@@ -1,4 +1,6 @@
 # Budbee PHP Wrapper
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FHartmarken%2Fbudbee-php.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FHartmarken%2Fbudbee-php?ref=badge_shield)
+
 This repository is a PHP wrapper of the budbee Open API. The API is used to create Order bookings at budbee.
 
 # Installation
@@ -129,3 +131,7 @@ $deliveryContact->name = 'Jane Doe';
 
 $updatedOrder = $orderAPI->editDeliveryContact($order->id, $deliveryContact);
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FHartmarken%2Fbudbee-php.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FHartmarken%2Fbudbee-php?ref=badge_large)
